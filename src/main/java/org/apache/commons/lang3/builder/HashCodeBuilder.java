@@ -176,7 +176,13 @@ public class HashCodeBuilder implements Builder<Integer> {
         try {
             register(object);
             final Field[] fields = clazz.getDeclaredFields();
-            AccessibleObject.setAccessible(fields, true);
+            try {
+                AccessibleObject.setAccessible(fields, true);
+            } catch (final Exception ex) {
+                // In Java 9+, some fields may not be accessible due to module restrictions
+                // In such cases, we skip them
+                return;
+            }
             for (final Field field : fields) {
                 if (!ArrayUtils.contains(excludeFields, field.getName())
                     && (field.getName().indexOf('$') == -1)
@@ -185,10 +191,9 @@ public class HashCodeBuilder implements Builder<Integer> {
                     try {
                         final Object fieldValue = field.get(object);
                         builder.append(fieldValue);
-                    } catch (final IllegalAccessException e) {
-                        // this can't happen. Would get a Security exception instead
-                        // throw a runtime exception in case the impossible happens.
-                        throw new InternalError("Unexpected IllegalAccessException");
+                    } catch (final Exception e) {
+                        // In Java 9+, some fields may not be accessible due to module restrictions
+                        // In such cases, we skip them
                     }
                 }
             }

@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1762484754127
-Build-Jdk: 17.0.17
+Bnd-LastModified: 1763255069486
+Build-Jdk: 1.8.0_472
 Built-By: tylere
 Bundle-Description: Commons Lang, a package of Java utility classes for 
- the  classes that are in java.lang's hierarchy, or are considered to be
-  so  standard as to justify existence in java.lang.
+ the        classes that are in java.lang's hierarchy, or are considered
+  to be so        standard as to justify existence in java.lang.
 Bundle-DocURL: http://commons.apache.org/proper/commons-lang/
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-ManifestVersion: 2

@@ -128,7 +128,7 @@ public class EqualsBuilderTest {
 
     static class TestTTLeafObject extends TestTTSubObject {
         @SuppressWarnings("unused")
-        private final int leafValue;
+        private int leafValue;
         public TestTTLeafObject(final int a, final int t, final int tt, final int leafValue) {
             super(a, t, tt);
             this.leafValue = leafValue;

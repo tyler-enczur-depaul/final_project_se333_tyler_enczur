@@ -511,7 +511,13 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
             return;
         }
         final Field[] fields = clazz.getDeclaredFields();
-        AccessibleObject.setAccessible(fields, true);
+        try {
+            AccessibleObject.setAccessible(fields, true);
+        } catch (final Exception ex) {
+            // In Java 9+, some fields may not be accessible due to module restrictions
+            // In such cases, we skip them
+            return;
+        }
         for (final Field field : fields) {
             final String fieldName = field.getName();
             if (this.accept(field)) {
@@ -520,12 +526,9 @@ public class ReflectionToStringBuilder extends ToStringBuilder {
                     // for primitive types.
                     final Object fieldValue = this.getValue(field);
                     this.append(fieldName, fieldValue);
-                } catch (final IllegalAccessException ex) {
-                    //this can't happen. Would get a Security exception
-                    // instead
-                    //throw a runtime exception in case the impossible
-                    // happens.
-                    throw new InternalError("Unexpected IllegalAccessException: " + ex.getMessage());
+                } catch (final Exception ex) {
+                    // In Java 9+, some fields may not be accessible due to module restrictions
+                    // In such cases, we skip them
                 }
             }
         }

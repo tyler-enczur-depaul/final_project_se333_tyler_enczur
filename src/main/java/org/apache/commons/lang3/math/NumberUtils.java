@@ -464,14 +464,15 @@ public class NumberUtils {
             }
         }
         if (pfxLen > 0) { // we have a hex number
-            final int hexDigits = str.length() - pfxLen;
-            if (hexDigits > 16) { // too many for Long
-                return createBigInteger(str);
+            try {
+                return createInteger(str);
+            } catch (final NumberFormatException e) {
+                try {
+                    return createLong(str);
+                } catch (final NumberFormatException e2) {
+                    return createBigInteger(str);
+                }
             }
-            if (hexDigits > 8) { // too many for an int
-                return createLong(str);
-            }
-            return createInteger(str);
         }
         final char lastChar = str.charAt(str.length() - 1);
         String mant;

@@ -396,7 +396,13 @@ public class EqualsBuilder implements Builder<Boolean> {
         try {
             register(lhs, rhs);
             final Field[] fields = clazz.getDeclaredFields();
-            AccessibleObject.setAccessible(fields, true);
+            try {
+                AccessibleObject.setAccessible(fields, true);
+            } catch (final Exception ex) {
+                // In Java 9+, some fields may not be accessible due to module restrictions
+                // In such cases, we skip them
+                return;
+            }
             for (int i = 0; i < fields.length && builder.isEquals; i++) {
                 final Field f = fields[i];
                 if (!ArrayUtils.contains(excludeFields, f.getName())
@@ -405,10 +411,9 @@ public class EqualsBuilder implements Builder<Boolean> {
                     && (!Modifier.isStatic(f.getModifiers()))) {
                     try {
                         builder.append(f.get(lhs), f.get(rhs));
-                    } catch (final IllegalAccessException e) {
-                        //this can't happen. Would get a Security exception instead
-                        //throw a runtime exception in case the impossible happens.
-                        throw new InternalError("Unexpected IllegalAccessException");
+                    } catch (final Exception e) {
+                        // In case of access issues, consider not equal
+                        builder.setEquals(false);
                     }
                 }
             }

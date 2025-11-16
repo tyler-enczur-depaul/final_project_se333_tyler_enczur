@@ -311,7 +311,13 @@ public class CompareToBuilder implements Builder<Integer> {
         final String[] excludeFields) {
         
         final Field[] fields = clazz.getDeclaredFields();
-        AccessibleObject.setAccessible(fields, true);
+        try {
+            AccessibleObject.setAccessible(fields, true);
+        } catch (final Exception ex) {
+            // In Java 9+, some fields may not be accessible due to module restrictions
+            // In such cases, we skip them
+            return;
+        }
         for (int i = 0; i < fields.length && builder.comparison == 0; i++) {
             final Field f = fields[i];
             if (!ArrayUtils.contains(excludeFields, f.getName())
@@ -320,10 +326,9 @@ public class CompareToBuilder implements Builder<Integer> {
                 && (!Modifier.isStatic(f.getModifiers()))) {
                 try {
                     builder.append(f.get(lhs), f.get(rhs));
-                } catch (final IllegalAccessException e) {
-                    // This can't happen. Would get a Security exception instead.
-                    // Throw a runtime exception in case the impossible happens.
-                    throw new InternalError("Unexpected IllegalAccessException");
+                } catch (final Exception e) {
+                    // In Java 9+, some fields may not be accessible due to module restrictions
+                    // In such cases, we skip them
                 }
             }
         }

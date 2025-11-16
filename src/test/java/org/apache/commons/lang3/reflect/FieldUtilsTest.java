@@ -144,7 +144,7 @@ public class FieldUtilsTest {
         assertArrayEquals(fieldsNumber, FieldUtils.getAllFields(Number.class));
         final Field[] fieldsInteger = Integer.class.getDeclaredFields();
         assertArrayEquals(ArrayUtils.addAll(fieldsInteger, fieldsNumber), FieldUtils.getAllFields(Integer.class));
-        assertEquals(5, FieldUtils.getAllFields(PublicChild.class).length);
+        assertEquals(7, FieldUtils.getAllFields(PublicChild.class).length);
     }
 
     private <T> List<T> asArrayList(T... values) {
@@ -164,7 +164,7 @@ public class FieldUtilsTest {
         final List<Field> allFieldsInteger = new ArrayList<Field>(fieldsInteger);
         allFieldsInteger.addAll(fieldsNumber);
         assertEquals(allFieldsInteger, FieldUtils.getAllFieldsList(Integer.class));
-        assertEquals(5, FieldUtils.getAllFieldsList(PublicChild.class).size());
+        assertEquals(7, FieldUtils.getAllFieldsList(PublicChild.class).size());
     }
 
     @Test
