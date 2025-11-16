@@ -65,20 +65,20 @@
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="test_getRootCauseMessage_Throwable" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableList_Throwable_null" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowables_Throwable_nested" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableList_Throwable_jdkNoCause" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableList_Throwable_jdkNoCause" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowables_Throwable_null" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableList_Throwable_nested" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="test_getMessage_Throwable" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowables_Throwable_withCause" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetCause_Throwable" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testRemoveCommonFrames_ListList" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testRemoveCommonFrames_ListList" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testPrintRootCauseStackTrace_Throwable" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testIndexOf_ThrowableClass" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testPrintRootCauseStackTrace_ThrowableStream" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testIndexOf_ThrowableClass" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testPrintRootCauseStackTrace_ThrowableStream" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableList_Throwable_withoutCause" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testPrintRootCauseStackTrace_ThrowableWriter" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetRootCauseStackTrace_Throwable" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableCount_Throwable" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetRootCauseStackTrace_Throwable" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowableCount_Throwable" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetCause_ThrowableArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testGetThrowables_Throwable_withoutCause" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ExceptionUtilsTest" name="testIndexOf_ThrowableClassInt" time="0"/>

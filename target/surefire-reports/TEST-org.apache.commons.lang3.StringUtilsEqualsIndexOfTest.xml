@@ -97,17 +97,17 @@
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testIndexOf_StringInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testLastIndexOf_StringInt" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testIndexOfAny_StringStringArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testEquals" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testLastIndexOf_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContainsOnly_CharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContainsWhitespace" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testIndexOfAny_StringStringWithSupplementaryChars" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testLastIndexOfAny_StringStringArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContainsAny_StringCharArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testLastIndexOfIgnoreCase_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testCustomCharSequence" time="0"/>
+  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testLastIndexOfIgnoreCase_String" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testCustomCharSequence" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testIndexOf_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContainsNone_CharArrayWithBadSupplementaryChars" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContainsNone_CharArrayWithBadSupplementaryChars" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testIndexOfAny_StringCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.StringUtilsEqualsIndexOfTest" name="testContains_StringWithBadSupplementaryChars" time="0"/>
 </testsuite>

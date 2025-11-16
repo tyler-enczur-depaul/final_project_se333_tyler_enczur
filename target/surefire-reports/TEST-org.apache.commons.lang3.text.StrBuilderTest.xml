@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="79" failures="0" name="org.apache.commons.lang3.text.StrBuilderTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="79" failures="0" name="org.apache.commons.lang3.text.StrBuilderTest" time="0.009" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -63,9 +63,9 @@
   </properties>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsTokenizer" time="0.005"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteFirst_StrMatcher" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceFirst_StrMatcher_String" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceFirst_StrMatcher_String" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteAll_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEndsWith" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEndsWith" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testGetSetNullText" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOfLang294" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testSubSequenceIntInt" time="0"/>
@@ -108,7 +108,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEnsureCapacity" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLang412Right" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteFirst_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testMidString" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testMidString" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceAll_StrMatcher_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testCapacity" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReverse" time="0"/>

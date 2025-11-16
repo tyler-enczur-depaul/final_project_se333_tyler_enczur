@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="74" failures="0" name="org.apache.commons.lang3.builder.ToStringBuilderTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="74" failures="0" name="org.apache.commons.lang3.builder.ToStringBuilderTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -61,16 +61,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="test_setUpToClass_valid" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="test_setUpToClass_valid" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionHierarchyArrayList" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDoubleArrayArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDoubleArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionBoolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObjectArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObjectBuild" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testObjectCycle" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionHierarchy" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionHierarchy" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSelfInstanceTwoVarsReflectionObjectCycle" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testAppendToStringUsingMultiLineStyle" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testShortArrayArray" time="0"/>
@@ -100,7 +100,7 @@
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionDoubleArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionIntArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSimpleReflectionStatics" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionStatics" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionStatics" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionhortArrayArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testConstructorEx1" time="0"/>
@@ -119,7 +119,7 @@
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testAppendToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionArrayAndObjectCycle" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testSetDefaultEx" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharArrayArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharArrayArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testByteArrayArray" time="0"/>
@@ -132,7 +132,7 @@
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testGetSetDefault" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testInnerClassReflection" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharacter" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionCharacter" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testDoubleArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.ToStringBuilderTest" name="testReflectionFloatArrayArray" time="0"/>
 </testsuite>

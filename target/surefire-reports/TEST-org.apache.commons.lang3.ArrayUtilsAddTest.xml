@@ -67,8 +67,8 @@
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayToObjectArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectAtIndex" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayFloat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayShort" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayByte" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayShort" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayChar" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayLong" time="0"/>
   <testcase classname="org.apache.commons.lang3.ArrayUtilsAddTest" name="testAddObjectArrayBoolean" time="0"/>

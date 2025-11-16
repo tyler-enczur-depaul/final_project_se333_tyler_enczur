@@ -318,6 +318,18 @@ public class ConversionTest {
         } catch (final IllegalArgumentException e) {
             // OK
         }
+        try {
+            Conversion.binaryToHexDigitMsb0_4bits(new boolean[9]);
+            fail("Thrown " + IllegalArgumentException.class.getName() + " expected");
+        } catch (final IllegalArgumentException e) {
+            // OK
+        }
+        try {
+            Conversion.binaryToHexDigitMsb0_4bits(new boolean[3]);
+            fail("Thrown " + IllegalArgumentException.class.getName() + " expected");
+        } catch (final IllegalArgumentException e) {
+            // OK
+        }
     }
 
     /**
@@ -353,6 +365,12 @@ public class ConversionTest {
             true, false, false, true, true, false, true, false};
         assertEquals('d', Conversion.binaryToHexDigitMsb0_4bits(javaDocCheck, 3));
 
+        try {
+            Conversion.binaryToHexDigitMsb0_4bits(new boolean[]{true, true, false}, 0);
+            fail("Thrown " + IllegalArgumentException.class.getName() + " expected");
+        } catch (final IllegalArgumentException e) {
+            // OK
+        }
     }
 
     /**

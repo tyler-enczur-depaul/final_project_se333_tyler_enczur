@@ -64,8 +64,8 @@
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testBadStates" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testGetStartTime" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testLang315" time="0.4"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimpleGet" time="0.501"/>
-  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimple" time="0.55"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimpleGet" time="0.5"/>
+  <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSimple" time="0.551"/>
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSplit" time="1.65"/>
   <testcase classname="org.apache.commons.lang3.time.StopWatchTest" name="testStopWatchSuspend" time="1.65"/>
 </testsuite>

@@ -90,13 +90,13 @@
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testCharArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiFloatArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMixedArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBoolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testBooleanArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testIntArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testLongArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareTransients" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testReflectionHierarchyCompareTransients" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testShortArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testMultiLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.CompareToBuilderTest" name="testFloatArrayHiddenByObject" time="0"/>

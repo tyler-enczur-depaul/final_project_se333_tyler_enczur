@@ -477,6 +477,20 @@ public class ObjectUtilsTest {
     }
 
     /**
+     * Tests {@link ObjectUtils#clone(Object)} with a throwing clone object.
+     */
+    @Test(expected = CloneNotSupportedException.class)
+    public void testCloneOfThrowingClone() throws Throwable {
+        final ThrowingCloneString string = new ThrowingCloneString("apache");
+        try {
+            ObjectUtils.clone(string);
+            fail("Thrown " + CloneFailedException.class.getName() + " expected");
+        } catch (final CloneFailedException e) {
+            throw e.getCause();
+        }
+    }
+
+    /**
      * Tests {@link ObjectUtils#clone(Object)} with an object array.
      */
     @Test
@@ -595,8 +609,14 @@ public class ObjectUtilsTest {
 
         }
         try {
-            ObjectUtils.CONST_BYTE(32768);
+            ObjectUtils.CONST_SHORT(32768);
             fail("CONST_SHORT(32768): IllegalArgumentException should have been thrown.");
+        } catch (final IllegalArgumentException iae) {
+
+        }
+        try {
+            ObjectUtils.CONST_BYTE(32768);
+            fail("CONST_BYTE(32768): IllegalArgumentException should have been thrown.");
         } catch (final IllegalArgumentException iae) {
 
         }
@@ -625,6 +645,21 @@ public class ObjectUtilsTest {
         private static final long serialVersionUID = 1L;
         UncloneableString(final String s) {
             super(s);
+        }
+    }
+
+    /**
+     * String that throws on clone.
+     */
+    static final class ThrowingCloneString extends MutableObject<String> implements Cloneable {
+        private static final long serialVersionUID = 1L;
+        ThrowingCloneString(final String s) {
+            super(s);
+        }
+
+        @Override
+        public ThrowingCloneString clone() throws CloneNotSupportedException {
+            throw new CloneNotSupportedException("test");
         }
     }
 

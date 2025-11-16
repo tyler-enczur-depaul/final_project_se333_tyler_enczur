@@ -65,17 +65,17 @@
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeRuntimeEx" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testAddInitializerNullInit" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testAddInitializerNullName" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeResultsIsSuccessfulTrue" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeResultsIsSuccessfulTrue" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultGetExceptionUnknown" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeNested" time="0.004"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeTempExec" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeNested" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeTempExec" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeEx" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultGetInitializerUnknown" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultGetInitializerUnknown" time="0.004"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeResultsIsSuccessfulFalse" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeNoChildren" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeNoChildren" time="0"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeChildWithExecutor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeExternalExec" time="0"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testInitializeExternalExec" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testAddInitializerAfterStart" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultGetResultObjectUnknown" time="0"/>
-  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultIsExceptionUnknown" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultGetResultObjectUnknown" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.concurrent.MultiBackgroundInitializerTest" name="testResultIsExceptionUnknown" time="0"/>
 </testsuite>

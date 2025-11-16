@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="42" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="42" failures="0" name="org.apache.commons.lang3.builder.HashCodeBuilderTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -66,7 +66,7 @@
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testObjectBuild" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testCharArrayAsObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testFloatArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testInt" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testInt" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testByteArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.HashCodeBuilderTest" name="testShort" time="0"/>

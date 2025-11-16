@@ -80,6 +80,7 @@ org/apache/commons/lang3/reflect/TypeUtilsTest$Thing.class
 org/apache/commons/lang3/ArrayUtilsTest$1.class
 org/apache/commons/lang3/event/EventUtilsTest.class
 org/apache/commons/lang3/mutable/MutableFloatTest.class
+org/apache/commons/lang3/ObjectUtilsTest$ThrowingCloneString.class
 org/apache/commons/lang3/reflect/testbed/StaticContainer.class
 org/apache/commons/lang3/exception/ExceptionUtilsTest$ExceptionWithCause.class
 org/apache/commons/lang3/reflect/TypeUtilsTest$Other.class

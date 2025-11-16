@@ -608,9 +608,9 @@ public class ObjectUtils {
 <span class="nc" id="L608">                } catch (final IllegalAccessException e) {</span>
 <span class="nc" id="L609">                    throw new CloneFailedException(&quot;Cannot clone Cloneable type &quot;</span>
 <span class="nc" id="L610">                        + obj.getClass().getName(), e);</span>
-<span class="nc" id="L611">                } catch (final InvocationTargetException e) {</span>
-<span class="nc" id="L612">                    throw new CloneFailedException(&quot;Exception cloning Cloneable type &quot;</span>
-<span class="nc" id="L613">                        + obj.getClass().getName(), e.getCause());</span>
+<span class="fc" id="L611">                } catch (final InvocationTargetException e) {</span>
+<span class="fc" id="L612">                    throw new CloneFailedException(&quot;Exception cloning Cloneable type &quot;</span>
+<span class="fc" id="L613">                        + obj.getClass().getName(), e.getCause());</span>
 <span class="fc" id="L614">                }</span>
             }
             @SuppressWarnings(&quot;unchecked&quot;) // OK because input is of type T
@@ -822,7 +822,7 @@ public class ObjectUtils {
      * @return the byte v, unchanged
      */
     public static short CONST_SHORT(final int v) throws IllegalArgumentException {
-<span class="pc bpc" id="L825" title="1 of 4 branches missed.">        if (v &lt; Short.MIN_VALUE || v &gt; Short.MAX_VALUE) {</span>
+<span class="fc bfc" id="L825" title="All 4 branches covered.">        if (v &lt; Short.MIN_VALUE || v &gt; Short.MAX_VALUE) {</span>
 <span class="fc" id="L826">            throw new IllegalArgumentException(&quot;Supplied value must be a valid byte literal between -32768 and 32767: [&quot; + v + &quot;]&quot;);</span>
         }
 <span class="fc" id="L828">        return (short) v;</span>

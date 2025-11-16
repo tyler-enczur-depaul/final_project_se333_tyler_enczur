@@ -61,18 +61,18 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedException" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedException" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testNullExceptionPassing" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testRawMessage" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionThrowable" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionStringThrowableContext" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionStringThrowableContext" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionString" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionStringThrowable" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testAddContextValue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testJavaSerialization" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testJavaSerialization" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testSetContextValue" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testGetContextEntries" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testGetContextLabels" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testGetFirstContextValue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testGetContextValues" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testGetContextValues" time="0.001"/>
 </testsuite>

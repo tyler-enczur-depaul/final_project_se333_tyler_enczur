@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAscii_char" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAscii_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToString_Character" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiAlphanumeric_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToChar_Character" time="0"/>
@@ -72,7 +72,7 @@
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiNumeric_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToIntValue_Character" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToChar_String_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToString_char" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToString_char" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiPrintable_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToIntValue_char_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiControl_char" time="0"/>
@@ -82,6 +82,6 @@
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToUnicodeEscaped_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToCharacterObject_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testToIntValue_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiAlphaLower_char" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testConstructor" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testIsAsciiAlphaLower_char" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharUtilsTest" name="testConstructor" time="0.001"/>
 </testsuite>

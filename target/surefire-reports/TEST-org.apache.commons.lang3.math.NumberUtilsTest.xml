@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="82" failures="0" name="org.apache.commons.lang3.math.NumberUtilsTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="82" failures="0" name="org.apache.commons.lang3.math.NumberUtilsTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -88,7 +88,7 @@
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxFloat_emptyArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinShort" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCreateNumberMagnitude" time="0"/>
+  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCreateNumberMagnitude" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinFloat_nullArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testToByteString" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testLang300" time="0"/>
@@ -98,12 +98,12 @@
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxLong_nullArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testIsDigits" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinByte_nullArray" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCreateBigDecimal" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCreateBigDecimal" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testConstants" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCompareDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinimumByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinimumLong" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testIsNumber" time="0"/>
+  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testIsNumber" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxByte" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxLong" time="0"/>
@@ -122,7 +122,7 @@
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxFloat" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxShort" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCompareFloat" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="TestLang747" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="TestLang747" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinInt_emptyArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinByte_emptyArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxInt" time="0"/>
@@ -139,7 +139,7 @@
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testStringToDoubleStringD" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testToShortString" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testConstructor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testStringCreateNumberEnsureNoPrecisionLoss" time="0"/>
+  <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testStringCreateNumberEnsureNoPrecisionLoss" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMaxByte_nullArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testCreateDouble" time="0"/>
   <testcase classname="org.apache.commons.lang3.math.NumberUtilsTest" name="testMinLong_emptyArray" time="0"/>

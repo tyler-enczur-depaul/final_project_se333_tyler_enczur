@@ -94,11 +94,11 @@
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testBooleanArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testBooleanArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testIntArrayHiddenByObject" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testUnrelatedClasses" time="0"/>
+  <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testUnrelatedClasses" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testShortArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testNpeForNullElement" time="0"/>
-  <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testMultiLongArray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testMultiLongArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testFloatArrayHiddenByObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testIntArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.builder.EqualsBuilderTest" name="testDouble" time="0"/>

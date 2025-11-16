@@ -73,7 +73,7 @@
   <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testSetShortValue" time="0"/>
   <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testIsAllSet" time="0"/>
   <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testGetShortRawValue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testGetRawValue" time="0"/>
+  <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testGetRawValue" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testSetShort" time="0"/>
-  <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testSetValue" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.BitFieldTest" name="testSetValue" time="0"/>
 </testsuite>

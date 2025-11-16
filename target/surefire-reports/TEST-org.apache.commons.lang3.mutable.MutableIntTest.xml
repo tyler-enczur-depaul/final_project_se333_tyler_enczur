@@ -69,9 +69,9 @@
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testPrimitiveValues" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testSubtractValuePrimitive" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testCompareToNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testHashCode" time="0"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testHashCode" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testAddValuePrimitive" time="0"/>
-  <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testToInteger" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testToInteger" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testSubtractValueObject" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testDecrement" time="0"/>
   <testcase classname="org.apache.commons.lang3.mutable.MutableIntTest" name="testEquals" time="0"/>

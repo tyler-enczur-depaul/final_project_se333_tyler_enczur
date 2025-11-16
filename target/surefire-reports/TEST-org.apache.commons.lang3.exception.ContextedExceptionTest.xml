@@ -64,12 +64,12 @@
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedException" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testNullExceptionPassing" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testRawMessage" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedExceptionThrowable" time="0"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedExceptionThrowable" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedExceptionStringThrowableContext" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedExceptionString" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testContextedExceptionStringThrowable" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testAddContextValue" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testJavaSerialization" time="0.007"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testJavaSerialization" time="0.006"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testSetContextValue" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testGetContextEntries" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedExceptionTest" name="testGetContextLabels" time="0"/>
