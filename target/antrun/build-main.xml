@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="maven-antrun-" default="main"  >
 <target name="main">
-  <copy todir="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/codebase/target/apidocs/META-INF">
-    <fileset dir="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/codebase">
+  <copy todir="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/apidocs/META-INF">
+    <fileset dir="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE">
       <include name="LICENSE.txt"/>
       <include name="NOTICE.txt"/>
     </fileset>

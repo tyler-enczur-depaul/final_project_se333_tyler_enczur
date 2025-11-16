@@ -1,245 +1,175 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="38" failures="12" name="org.apache.commons.lang3.time.DateUtilsTest" time="0.024" errors="5" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.commons.lang3.time.DateUtilsTest" time="0.027" tests="38" errors="5" skipped="0" failures="12">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.17+10"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/codebase"/>
-    <property name="java.vm.vendor" value="Arch Linux"/>
-    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
-    <property name="path.separator" value=":"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/codebase"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.17+10"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/usr/share/java/maven/bin/m2.conf"/>
+    <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="maven.conf" value="/usr/share/java/maven/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.17.5-arch1-1"/>
-    <property name="library.jansi.path" value="/usr/share/java/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/tylere"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="tylere"/>
-    <property name="java.class.path" value="/usr/share/java/maven/boot/plexus-classworlds-2.9.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.class.path" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/test-classes:/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/classes:/home/tylere/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tylere/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tylere/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/tylere/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar:/home/tylere/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar:/home/tylere/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:"/>
+    <property name="java.vm.vendor" value="Arch Linux"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-25-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/surefire/surefirebooter8089598138806634415.jar /home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/surefire 2025-11-16T11-53-10_698-jvmRun1 surefire10009468737590289084tmp surefire_013018747670102694967tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/test-classes:/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/classes:/home/tylere/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/tylere/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tylere/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/home/tylere/.m2/repository/org/easymock/easymock/3.1/easymock-3.1.jar:/home/tylere/.m2/repository/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar:/home/tylere/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/tylere"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17.0.17"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Arch Linux"/>
-    <property name="java.specification.maintenance.version" value="1"/>
-    <property name="maven.home" value="/usr/share/java/maven"/>
-    <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-25-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE/target/surefire/surefirebooter8089598138806634415.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="tylere"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.17.5-arch1-1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/tylere/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/home/tylere/USB/Classwork/Y3Q1/SE333/FINAL_PROJECT/SE333-FINAL-CODEBASE-PRIVATE"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Arch Linux"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testParseDateWithLeniency" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddMinutes" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testMonthIterator" time="0.002"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testRoundLang346" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLANG799_DE_OK" time="0.005">
+  <testcase name="testParseDateWithLeniency" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002"/>
+  <testcase name="testAddMinutes" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testMonthIterator" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002"/>
+  <testcase name="testRoundLang346" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001"/>
+  <testcase name="testLANG799_DE_OK" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.004">
     <error message="Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT" type="java.text.ParseException">java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT
-	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:390)
-	at org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:290)
-	at org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:267)
 	at org.apache.commons.lang3.time.DateUtilsTest.testLANG799_DE_OK(DateUtilsTest.java:1598)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLANG799_EN_OK" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetMilliseconds" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testTruncate" time="0.002"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIsSameLocalTime_Cal" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddDays" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLANG799_EN_WITH_DE_LOCALE" time="0">
+  <testcase name="testLANG799_EN_OK" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testSetMilliseconds" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testTruncate" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002"/>
+  <testcase name="testIsSameLocalTime_Cal" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testAddDays" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001"/>
+  <testcase name="testLANG799_EN_WITH_DE_LOCALE" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
     <error message="Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT" type="java.text.ParseException">java.text.ParseException: Unable to parse the date: Mi, 09 Apr 2008 23:55:38 GMT
-	at org.apache.commons.lang3.time.DateUtils.parseDateWithLeniency(DateUtils.java:390)
-	at org.apache.commons.lang3.time.DateUtils.parseDate(DateUtils.java:290)
 	at org.apache.commons.lang3.time.DateUtilsTest.testLANG799_EN_WITH_DE_LOCALE(DateUtilsTest.java:1623)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testRound" time="0.002">
-    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
-	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
+  <testcase name="testRound" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002">
+    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.time.DateUtilsTest.testRound(DateUtilsTest.java:848)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testParseDate" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testCeil" time="0.002">
-    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
-	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
+  <testcase name="testParseDate" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001"/>
+  <testcase name="testCeil" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002">
+    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.time.DateUtilsTest.testCeil(DateUtilsTest.java:1427)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddSeconds" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testAddSeconds" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddSeconds(DateUtilsTest.java:439)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLANG799_EN_FAIL" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetMinutes" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testLANG799_EN_FAIL" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001"/>
+  <testcase name="testSetMinutes" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetMinutes(DateUtilsTest.java:565)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testToCalendar" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddHours" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testToCalendar" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testAddHours" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddHours(DateUtilsTest.java:399)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddWeeks" time="0.001">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testAddWeeks" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddWeeks(DateUtilsTest.java:359)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddYears" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testAddYears" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddYears(DateUtilsTest.java:319)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testTruncateLang59" time="0">
-    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null
-	at org.apache.commons.lang3.SystemUtils.isJavaVersionAtLeast(SystemUtils.java:1388)
+  <testcase name="testTruncateLang59" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001">
+    <error message="Cannot invoke &quot;org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)&quot; because &quot;org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.apache.commons.lang3.JavaVersion.atLeast(org.apache.commons.lang3.JavaVersion)" because "org.apache.commons.lang3.SystemUtils.JAVA_SPECIFICATION_VERSION_AS_ENUM" is null
 	at org.apache.commons.lang3.time.DateUtilsTest.testTruncateLang59(DateUtilsTest.java:1137)
 </error>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIsSameInstant_Date" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLang530" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetSeconds" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testIsSameInstant_Date" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testLang530" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testSetSeconds" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetSeconds(DateUtilsTest.java:587)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIsSameInstant_Cal" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddMonths" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testIsSameInstant_Cal" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testAddMonths" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddMonths(DateUtilsTest.java:339)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testWeekIterator" time="0.003"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetMonths" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testWeekIterator" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.002"/>
+  <testcase name="testSetMonths" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetMonths(DateUtilsTest.java:499)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetDays" time="0.001">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testSetDays" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetDays(DateUtilsTest.java:521)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIsSameDay_Date" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIsSameDay_Cal" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testIteratorEx" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testAddMilliseconds" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testIsSameDay_Date" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testIsSameDay_Cal" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testIteratorEx" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001"/>
+  <testcase name="testAddMilliseconds" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testAddMilliseconds(DateUtilsTest.java:459)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testConstructor" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetHours" time="0.001">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testConstructor" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
+  <testcase name="testSetHours" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetHours(DateUtilsTest.java:543)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testSetYears" time="0">
-    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4&gt; but was:&lt;11&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:743)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:555)
-	at org.junit.Assert.assertEquals(Assert.java:542)
+  <testcase name="testSetYears" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0.001">
+    <failure message="expected:&lt;4&gt; but was:&lt;11&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<11>
 	at org.apache.commons.lang3.time.DateUtilsTest.assertDate(DateUtilsTest.java:632)
 	at org.apache.commons.lang3.time.DateUtilsTest.testSetYears(DateUtilsTest.java:479)
-</failure>
+]]></failure>
   </testcase>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsTest" name="testLANG799_DE_FAIL" time="0"/>
+  <testcase name="testLANG799_DE_FAIL" classname="org.apache.commons.lang3.time.DateUtilsTest" time="0"/>
 </testsuite>
