@@ -16,6 +16,7 @@
  */
 package org.apache.commons.lang3;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
@@ -24,9 +25,8 @@ import static org.junit.Assert.assertTrue;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Modifier;
 
-import org.junit.Assert;
-
 import org.junit.Test;
+import org.junit.Assert;
 
 /**
  * Tests CharSequenceUtils
@@ -78,6 +78,60 @@ public class CharSequenceUtilsTest {
         } catch (final IndexOutOfBoundsException e) {
             // Expected
         }
+    }
+
+    // ----- Quick additional tests for non-String branches -----
+    @Test
+    public void testIndexOfString() {
+        assertEquals(1, CharSequenceUtils.indexOf("abc", 'b', 0));
+        // start negative should begin at 0
+        assertEquals(0, CharSequenceUtils.indexOf("abc", 'a', -5));
+        assertEquals(-1, CharSequenceUtils.indexOf("abc", 'x', 0));
+    }
+
+    @Test
+    public void testIndexOfNonString() {
+        final StringBuilder sb = new StringBuilder("012345");
+        // find '3' starting from 2
+        assertEquals(3, CharSequenceUtils.indexOf(sb, '3', 2));
+        // start negative should become 0
+        assertEquals(0, CharSequenceUtils.indexOf(sb, '0', -1));
+        assertEquals(-1, CharSequenceUtils.indexOf(sb, 'z', 0));
+    }
+
+    @Test
+    public void testIndexOfSequence() {
+        final CharSequence cs = new StringBuilder("hello world");
+        final CharSequence search = new StringBuilder("world");
+        assertEquals(6, CharSequenceUtils.indexOf(cs, search, 0));
+        assertEquals(-1, CharSequenceUtils.indexOf(cs, "nope", 0));
+    }
+
+    @Test
+    public void testLastIndexOfNonString() {
+        final StringBuilder sb = new StringBuilder("abca");
+        // start beyond length should start at end
+        assertEquals(3, CharSequenceUtils.lastIndexOf(sb, 'a', 100));
+        // start negative returns -1
+        assertEquals(-1, CharSequenceUtils.lastIndexOf(sb, 'a', -5));
+        assertEquals(1, CharSequenceUtils.lastIndexOf(sb, 'b', 2));
+    }
+
+    @Test
+    public void testToCharArrayNonString() {
+        final StringBuilder sb = new StringBuilder("xyz");
+        final char[] arr = CharSequenceUtils.toCharArray(sb);
+        assertArrayEquals(new char[] {'x','y','z'}, arr);
+    }
+
+    @Test
+    public void testRegionMatchesCaseSensitiveAndInsensitive() {
+        final CharSequence cs = new StringBuilder("AbCdEf");
+        final CharSequence sub = new StringBuilder("bcD");
+        // case sensitive should fail
+        assertFalse(CharSequenceUtils.regionMatches(cs, false, 1, sub, 0, 3));
+        // case insensitive should succeed
+        assertTrue(CharSequenceUtils.regionMatches(cs, true, 1, sub, 0, 3));
     }
 
 }
