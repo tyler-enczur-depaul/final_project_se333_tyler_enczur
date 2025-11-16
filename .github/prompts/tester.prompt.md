@@ -41,7 +41,7 @@ Please make commits after each debugging session ONLY if the testing suite compl
 Repeat for round = 1..max_rounds:
 
 1. Initialization
-    - call `initializeSourceDir()` with the directory of the java source code
+    - call `initializeSourceDir()` with the project root
 
 2. Run tests
    - `runMavenTests()`
