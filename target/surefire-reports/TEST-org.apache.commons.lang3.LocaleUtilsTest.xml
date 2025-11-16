@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="org.apache.commons.lang3.LocaleUtilsTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="org.apache.commons.lang3.LocaleUtilsTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -70,7 +70,7 @@
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testParseAllLocales" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLocaleLookupList_LocaleLocale" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLanguagesByCountry" time="0"/>
-  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testToLocale_1Part" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testToLocale_1Part" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testToLocale_2Part" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testToLocale_3Part" time="0"/>
   <testcase classname="org.apache.commons.lang3.LocaleUtilsTest" name="testLocaleLookupList_Locale" time="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="55" failures="0" name="org.apache.commons.lang3.text.StrTokenizerTest" time="0.01" errors="0" skipped="0">
+<testsuite tests="55" failures="0" name="org.apache.commons.lang3.text.StrTokenizerTest" time="0.006" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -74,21 +74,21 @@
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testReset_charArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testTokenizeSubclassOutputChange" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testListArray" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testListArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted2" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted3" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted4" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted3" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted4" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted5" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted6" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuoted7" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNotSupportedException" time="0.004"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNotSupportedException" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testReset_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testTSVEmpty" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testConstructor_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCloneNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test2" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test1" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test2" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test3" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test4" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="test5" time="0"/>
@@ -103,10 +103,10 @@
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testCSVSimpleNeedsTrim" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed2" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed3" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed4" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed3" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicIgnoreTrimmed4" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasicQuotedTrimmed1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic1" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic1" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic2" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic3" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrTokenizerTest" name="testBasic4" time="0"/>

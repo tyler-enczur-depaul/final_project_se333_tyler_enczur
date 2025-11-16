@@ -66,8 +66,8 @@
   <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testComparable1" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testComparable2" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testToString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testCompatibilityBetweenPairs" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testCompatibilityBetweenPairs" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testMapEntry" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testPairOf" time="0"/>
-  <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testToStringCustom" time="0"/>
+  <testcase classname="org.apache.commons.lang3.tuple.PairTest" name="testToStringCustom" time="0.001"/>
 </testsuite>

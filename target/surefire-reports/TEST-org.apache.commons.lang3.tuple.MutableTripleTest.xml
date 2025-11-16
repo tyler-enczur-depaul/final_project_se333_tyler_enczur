@@ -62,8 +62,8 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testTripleOf" time="0"/>
-  <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testSerialization" time="0"/>
-  <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testBasic" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testSerialization" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testBasic" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testToString" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testHashCode" time="0"/>
   <testcase classname="org.apache.commons.lang3.tuple.MutableTripleTest" name="testDefault" time="0"/>

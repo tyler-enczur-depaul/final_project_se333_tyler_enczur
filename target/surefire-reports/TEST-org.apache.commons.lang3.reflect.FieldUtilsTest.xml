@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="0" name="org.apache.commons.lang3.reflect.FieldUtilsTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="44" failures="0" name="org.apache.commons.lang3.reflect.FieldUtilsTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -63,10 +63,10 @@
   </properties>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadStaticFieldForceAccess" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetAllFieldsList" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadDeclaredNamedField" time="0"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadDeclaredNamedField" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadNamedStaticField" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadDeclaredNamedStaticFieldForceAccess" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadDeclaredNamedFieldForceAccess" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadDeclaredNamedFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetField" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldIllegalArgumentException1" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldIllegalArgumentException2" time="0"/>
@@ -76,7 +76,7 @@
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredFieldForceAccessIllegalArgumentException1" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredFieldForceAccessIllegalArgumentException2" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteFieldForceAccess" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testAmbig" time="0"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testAmbig" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadStaticFieldForceAccessIllegalArgumentException1" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadStaticFieldForceAccessIllegalArgumentException2" time="0.002"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteNamedField" time="0"/>
@@ -88,10 +88,10 @@
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadField" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteNamedStaticField" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteStaticFieldForceAccess" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteStaticFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteStaticField" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldForceAccessIllegalArgumentException1" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldForceAccessIllegalArgumentException2" time="0"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetFieldForceAccessIllegalArgumentException2" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteNamedFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadNamedStaticFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetAllFields" time="0"/>
@@ -100,7 +100,7 @@
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredFieldAccessIllegalArgumentException2" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteDeclaredNamedStaticFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testWriteDeclaredNamedField" time="0"/>
-  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredField" time="0"/>
+  <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredField" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testGetDeclaredFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadFieldForceAccess" time="0"/>
   <testcase classname="org.apache.commons.lang3.reflect.FieldUtilsTest" name="testReadNamedFieldForceAccess" time="0"/>

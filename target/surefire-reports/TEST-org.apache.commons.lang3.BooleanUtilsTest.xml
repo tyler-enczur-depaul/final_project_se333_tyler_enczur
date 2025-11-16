@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_primitive_nullInput" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_primitive_nullInput" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testAnd_object_nullElementInput" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="test_toStringTrueFalse_boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="test_toBooleanObject_int" time="0"/>
@@ -112,7 +112,7 @@
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="test_toIntegerObject_boolean_Integer_Integer" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="test_isTrue_Boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_primitive_validInput_2items" time="0"/>
-  <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_primitive_validInput_3items" time="0"/>
+  <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_primitive_validInput_3items" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testXor_object_emptyInput" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testOr_object_validInput_2items" time="0"/>
   <testcase classname="org.apache.commons.lang3.BooleanUtilsTest" name="testOr_object_validInput_3items" time="0"/>

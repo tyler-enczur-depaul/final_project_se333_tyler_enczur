@@ -61,8 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedException" time="0"/>
-  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testNullExceptionPassing" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedException" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testNullExceptionPassing" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testRawMessage" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionThrowable" time="0"/>
   <testcase classname="org.apache.commons.lang3.exception.ContextedRuntimeExceptionTest" name="testContextedExceptionStringThrowableContext" time="0"/>

@@ -70,8 +70,8 @@
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testMin" time="0"/>
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testIdentityToStringStringBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testFirstNonNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testMode" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testNull" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testMode" time="0"/>
+  <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testIdentityToStringStringBuffer" time="0"/>
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testCloneOfStringArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.ObjectUtilsTest" name="testComparatorMedian_emptyItems" time="0"/>

@@ -64,11 +64,11 @@
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testSimpleDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testShortDateStyleWithLocales" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testMilleniumBug" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLocaleMatches" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLocaleMatches" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLowYearPadding" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testCalendarTimezoneRespected" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang303" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang538" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang538" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testLang645" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testToStringContainsName" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.FastDateFormat_PrinterTest" name="testEquals" time="0"/>

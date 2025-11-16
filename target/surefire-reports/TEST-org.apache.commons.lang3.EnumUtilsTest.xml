@@ -61,11 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nullClassWithArray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nullClassWithArray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_nullElement" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_isEnum_nullClass" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_getEnumMap" time="0"/>
-  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_longClass" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_longClass" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_getEnum" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nullArrayElement" time="0"/>
@@ -76,7 +76,7 @@
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_isEnum" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_nullIterable" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nonEnumClass" time="0"/>
-  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_processBitVectors" time="0"/>
+  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_processBitVectors" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_longClassWithArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_nonEnumClass" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="testConstructable" time="0"/>
@@ -90,7 +90,7 @@
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_nullClassWithArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_processBitVector" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVector_nullArrayElement" time="0"/>
-  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nullArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_generateBitVectors_nullClass" time="0"/>
   <testcase classname="org.apache.commons.lang3.EnumUtilsTest" name="test_getEnum_nullClass" time="0"/>

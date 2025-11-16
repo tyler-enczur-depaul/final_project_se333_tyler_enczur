@@ -589,7 +589,7 @@ public class NumberUtils {
         }
 
         //Must be a Float, Double, BigDecimal
-<span class="pc bpc" id="L592" title="3 of 4 branches missed.">        final boolean allZeros = isAllZeros(mant) &amp;&amp; isAllZeros(exp);</span>
+<span class="pc bpc" id="L592" title="1 of 4 branches missed.">        final boolean allZeros = isAllZeros(mant) &amp;&amp; isAllZeros(exp);</span>
         try {
 <span class="fc bfc" id="L594" title="All 2 branches covered.">            if(numDecimals &lt;= 7){// If number has 7 or fewer digits past the decimal point then make it a float</span>
 <span class="fc" id="L595">                final Float f = createFloat(str);</span>
@@ -623,15 +623,15 @@ public class NumberUtils {
      * @return if it is all zeros or &lt;code&gt;null&lt;/code&gt;
      */
     private static boolean isAllZeros(final String str) {
-<span class="pc bpc" id="L626" title="1 of 2 branches missed.">        if (str == null) {</span>
-<span class="nc" id="L627">            return true;</span>
+<span class="fc bfc" id="L626" title="All 2 branches covered.">        if (str == null) {</span>
+<span class="fc" id="L627">            return true;</span>
         }
-<span class="pc bfc" id="L629" title="All 2 branches covered.">        for (int i = str.length() - 1; i &gt;= 0; i--) {</span>
-<span class="pc bpc" id="L630" title="1 of 2 branches missed.">            if (str.charAt(i) != '0') {</span>
+<span class="fc bfc" id="L629" title="All 2 branches covered.">        for (int i = str.length() - 1; i &gt;= 0; i--) {</span>
+<span class="fc bfc" id="L630" title="All 2 branches covered.">            if (str.charAt(i) != '0') {</span>
 <span class="fc" id="L631">                return false;</span>
             }
         }
-<span class="pc bpc" id="L634" title="1 of 2 branches missed.">        return str.length() &gt; 0;</span>
+<span class="fc bfc" id="L634" title="All 2 branches covered.">        return str.length() &gt; 0;</span>
     }
 
     //-----------------------------------------------------------------------

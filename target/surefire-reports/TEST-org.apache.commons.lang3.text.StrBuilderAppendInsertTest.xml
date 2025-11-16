@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="51" failures="0" name="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="51" failures="0" name="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk/jre/lib/amd64"/>
@@ -64,7 +64,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendWithSeparators_Collection" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testInsertWithNullText" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendFixedWidthPadRight_int" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_PrimitiveNumber" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_PrimitiveNumber" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_Boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_Boolean" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StrBuilder_int_int" time="0"/>
@@ -88,11 +88,11 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_char_int" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String_String" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String_String" time="0.004"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendAll_Array" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuilder_int_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuffer" time="0.003"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppend_StringBuffer" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendWithSeparatorsWithNullText" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendSeparator_String_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderAppendInsertTest" name="testAppendln_StringBuffer_int_int" time="0"/>

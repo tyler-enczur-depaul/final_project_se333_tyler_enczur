@@ -67,9 +67,9 @@
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testDelete_StringStringarray" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testCount_StringStringarray" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testContainsAny_StringString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testKeep_StringStringarray" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testKeep_StringStringarray" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testCount_StringString" time="0"/>
-  <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testContainsAny_StringStringarray" time="0"/>
+  <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testContainsAny_StringStringarray" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testSqueeze_StringStringarray" time="0"/>
   <testcase classname="org.apache.commons.lang3.CharSetUtilsTest" name="testConstructor" time="0"/>
 </testsuite>

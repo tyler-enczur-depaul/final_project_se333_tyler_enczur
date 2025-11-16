@@ -64,9 +64,9 @@
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testOneArgNull" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testToString" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testSameInstance" time="0"/>
-  <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testEquivalence" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testEquivalence" time="0"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testAnnotationsOfDifferingTypes" time="0"/>
-  <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testHashCode" time="0"/>
+  <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testHashCode" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testGeneratedAnnotationEquivalentToRealAnnotation" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testBothArgsNull" time="0"/>
   <testcase classname="org.apache.commons.lang3.AnnotationUtilsTest" name="testNonEquivalentAnnotationsOfSameType" time="0"/>

@@ -62,25 +62,25 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundMilliSecond" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundDayOfMonth" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundMinute" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundDayOfMonth" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundMinute" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundSecond" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundMonth" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateSemiMonth" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateMinute" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateMinute" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundSemiMonth" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateSecond" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundAmPm" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundAmPm" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundHour" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundYear" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateMilliSecond" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateHourOfDay" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateHourOfDay" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateMonth" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testRoundHourOfDay" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateAmPm" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateDate" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateHour" time="0"/>
   <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateYear" time="0"/>
-  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateDayOfMonth" time="0"/>
+  <testcase classname="org.apache.commons.lang3.time.DateUtilsRoundingTest" name="testTruncateDayOfMonth" time="0.001"/>
 </testsuite>

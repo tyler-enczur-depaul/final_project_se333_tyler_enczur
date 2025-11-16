@@ -244,6 +244,10 @@ public class NumberUtilsTest {
         final Number bigNum = NumberUtils.createNumber("-1.1E-700F");
         assertNotNull(bigNum);
         assertEquals(BigDecimal.class, bigNum.getClass());
+
+        assertEquals("createNumber(String) 20 failed", Double.valueOf("1.12345678"), NumberUtils.createNumber("1.12345678"));
+        assertEquals("createNumber(String) 21 failed", new BigDecimal("1.123456789012345678"), NumberUtils.createNumber("1.123456789012345678"));
+        assertEquals("createNumber(String) 24 failed", new BigDecimal("0.0000000000000000001"), NumberUtils.createNumber("0.0000000000000000001"));
     }
 
     @Test

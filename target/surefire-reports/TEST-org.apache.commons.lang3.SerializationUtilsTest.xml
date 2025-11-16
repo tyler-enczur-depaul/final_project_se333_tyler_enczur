@@ -73,8 +73,8 @@
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeIOException" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeBytes" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testCloneNull" time="0"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testPrimitiveTypeClassSerialization" time="0.001"/>
-  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStream" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testPrimitiveTypeClassSerialization" time="0"/>
+  <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStream" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testDeserializeStream" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testCloneUnserializable" time="0"/>
   <testcase classname="org.apache.commons.lang3.SerializationUtilsTest" name="testSerializeStreamUnserializable" time="0"/>
