@@ -27,6 +27,24 @@ public class JavaUnicodeEscaperTest {
     }
 
     @Test
+    public void testAboveEscapes() {
+        // above 0x7f should escape non-ascii
+        JavaUnicodeEscaper esc = JavaUnicodeEscaper.above(0x7f);
+        assertEquals("\\u00E9", esc.translate("\u00E9")); // é -> \u00E9
+        // ascii should not be escaped
+        assertEquals("A", esc.translate("A"));
+    }
+
+    @Test
+    public void testBelowEscapes() {
+        // below 0x20 should escape control characters
+        JavaUnicodeEscaper esc = JavaUnicodeEscaper.below(0x20);
+        assertEquals("\\u000A", esc.translate("\n")); // newline
+        // space (0x20) is exclusive, so should not be escaped
+        assertEquals(" ", esc.translate(" "));
+    }
+
+    @Test
     public void testHexFormattingBranches() {
         // cover >0xfff branch
         JavaUnicodeEscaper esc = JavaUnicodeEscaper.between(0, Integer.MAX_VALUE);
