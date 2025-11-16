@@ -305,6 +305,40 @@ public class ExtendedMessageFormatTest {
         assertTrue("locale, hashcode()", emf.hashCode() == other.hashCode()); // same hashcode
     }
 
+    @Test
+    public void testInvalidArgumentIndexThrows() {
+        try {
+            new ExtendedMessageFormat("{a}");
+            fail("Expected IllegalArgumentException for non-numeric argument index");
+        } catch (final IllegalArgumentException ex) {
+            // expected
+        }
+    }
+
+    @Test
+    public void testUnterminatedFormatElementThrows() {
+        try {
+            new ExtendedMessageFormat("{0,number");
+            fail("Expected IllegalArgumentException for unterminated format element");
+        } catch (final IllegalArgumentException ex) {
+            // expected
+        }
+    }
+
+    @Test
+    public void testQuotedStringEscaping() {
+        final ExtendedMessageFormat emf = new ExtendedMessageFormat("''{0}'' {0}");
+        final String result = emf.format(new Object[] {"X"});
+        assertEquals("'X' X", result);
+    }
+
+    @Test
+    public void testInsertFormatsWithCustomPatternNullRegistry() {
+        final ExtendedMessageFormat emf = new ExtendedMessageFormat("Value: {0,number}");
+        assertEquals("Value: 10", emf.format(new Object[] {Integer.valueOf(10)}));
+        assertEquals("Value: {0,number}", emf.toPattern());
+    }
+
     /**
      * Test a built in format for the specified Locales, plus <code>null</code> Locale.
      * @param pattern MessageFormat pattern

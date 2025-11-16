@@ -38,6 +38,7 @@ org/apache/commons/lang3/ClassUtilsTest$IF.class
 org/apache/commons/lang3/mutable/MutableByteTest.class
 org/apache/commons/lang3/text/StrBuilderAppendInsertTest$9.class
 org/apache/commons/lang3/builder/EqualsBuilderTest$TestSubObject.class
+org/apache/commons/lang3/text/translate/JavaUnicodeEscaperTest.class
 org/apache/commons/lang3/CharEncodingTest.class
 org/apache/commons/lang3/builder/ToStringBuilderTest$ReflectionTestFixtureB.class
 org/apache/commons/lang3/CharUtilsTest.class
